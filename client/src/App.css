@@ -9,27 +9,27 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1b0ed6;
   min-height: 10vh;
-  display: flex;
+  display: display-inside;
   flex-direction: row;
-  align-items: center;
+  align-items: row;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .App-header ul {
   list-style-type: none;
   flex: 1;
-  text-align: right;
+  text-align: center;
   padding-right: 30px;
 }
 
 .App-header ul li {
   display: inline;
-  text-align: center;
+  text-align: justify;
   padding: 10px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #d30986;
 }
 
 main {

@@ -5,18 +5,19 @@ const PostSchema = new mongoose.Schema({
     type: 'ObjectId',
     ref: 'User'
   },
-  title: {
-    type: String,
-    required: true
-  },
-  body: {
-    type: String,
-    required: true
-  },
-  date: {
-    type: Date,
-    default: Date.now
-  }
+    date: {
+        type: Date,
+        required: true,
+        unique: true
+    },
+    mileage: {
+        type: Number,
+        required: true
+    },
+    time: {
+        type: Number,
+        required: true
+    }
 });
 
 const Post = mongoose.model('post', PostSchema);
